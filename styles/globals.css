@@ -1,0 +1,28 @@
+/* Global Styles */
+body {
+  font-family: 'Arial', sans-serif;
+}
+
+/* Card Styling */
+.card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Smooth transitions */
+}
+
+.card:hover {
+  transform: translateY(-10px); /* Lift the card on hover */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Add shadow effect */
+}
+
+/* Card title styling */
+.card-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #333;
+}
+
+/* Card footer styling */
+.card-footer {
+  background-color: #f1f1f1;
+  font-size: 0.875rem;
+  color: #6c757d;
+}
